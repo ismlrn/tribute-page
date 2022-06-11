@@ -1,9 +1,108 @@
+html {
+    font-size: 10px;
+}
 body {
     text-align: center;
-    font-family: roboto, Lobster;
+    font-family: 'Segoe UI', 'Roboto', 'Lobster';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    background-color: black;
+    color:white;
+}
+#title-text {
+    font-size: 1.1em;
+    font-weight: 600;
+    font-style: italic;
+}
+#main {
+    margin: 0px 0px;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    color: black;
 }
 
-#image {
-    width: 400px;
-    height: 400px;
+#img-caption {
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+    font-weight:600;
+}
+@media (min-width: 980px) {
+    #img-div {
+        background-color: black;
+        color: yellow;
+    }
+}
+h1 {
+    margin-bottom: 0;
+}
+a {
+    color: #25dbb0;
+}
+a:visited {
+    color: lightseagreen
+}
+#tribute-info {
+    font-size: 1.3em;
+}
+#article-text {
+    margin: 50px auto auto auto;
+    padding: 25px 25px 25px 25px;
+    max-width: 60%;
+    text-align: justify;
+    text-justify:newspaper;
+    border: 2px solid yellow;
+    border-radius: 12% 5%;
+}
+#headline {
+    margin: 70px 0 40px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+#image2 {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div2 {
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    color: black;
+}
+
+@media (min-width: 980px) {
+    #image2 {
+        max-width: 980px;
+    }
 }
