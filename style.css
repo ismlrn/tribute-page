@@ -10,8 +10,15 @@ body {
     background-color: black;
     color:white;
 }
+h1 {
+    font-size: 3.5em;
+}
+h1 > span {
+    color: yellow;
+}
 #title-text {
-    font-size: 1.1em;
+    color:yellow;
+    font-size: 1.4em;
     font-weight: 600;
     font-style: italic;
 }
@@ -19,7 +26,6 @@ body {
     margin: 0px 0px;
     padding: 25px;
     border-radius: 5px;
-    border: 1px solid green;
 }
 @media (max-width: 460px) {
     #main {
@@ -44,6 +50,7 @@ body {
     margin: 0;
     padding: 10px 10px 0px 10px;
     font-weight:600;
+    font-size: 1.3em;
 }
 @media (min-width: 980px) {
     #img-div {
@@ -61,12 +68,12 @@ a:visited {
     color: lightseagreen
 }
 #tribute-info {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 #article-text {
     margin: 50px auto auto auto;
     padding: 25px 25px 25px 25px;
-    max-width: 60%;
+    max-width: 980px;
     text-align: justify;
     text-justify:newspaper;
     border: 2px solid yellow;
@@ -142,4 +149,22 @@ blockquote {
     margin: 0 auto 50px auto;
     text-align: left;
     padding: 30px 30px 0 30px;
+}
+#footer {
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    color: yellow;
+    border-top: 1px solid yellow;
+    text-align: center;
+    font-size: 28px;
+}
+#read-more {
+    font-size:1.2em;
+}
+a > i {
+    color: yellow;
+    margin: 0px 10px 0px 10px;
 }
